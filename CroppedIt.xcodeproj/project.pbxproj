@@ -14,6 +14,14 @@
 		E3FBB9C51ADCEA200051AE77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3FBB9C41ADCEA200051AE77 /* Images.xcassets */; };
 		E3FBB9C81ADCEA200051AE77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3FBB9C61ADCEA200051AE77 /* LaunchScreen.xib */; };
 		E3FBB9D41ADCEA200051AE77 /* CroppedItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FBB9D31ADCEA200051AE77 /* CroppedItTests.m */; };
+		E3FBB9E31ADCEC370051AE77 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FBB9E21ADCEC370051AE77 /* UIImage+Resize.m */; };
+		E3FBB9E51ADCF2520051AE77 /* bottle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBB9E41ADCF2520051AE77 /* bottle.jpg */; };
+		E3FBB9EB1ADCF5460051AE77 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E3FBB9E61ADCF5460051AE77 /* 1.png */; };
+		E3FBB9EC1ADCF5460051AE77 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E3FBB9E71ADCF5460051AE77 /* 2.png */; };
+		E3FBB9ED1ADCF5460051AE77 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E3FBB9E81ADCF5460051AE77 /* 3.png */; };
+		E3FBB9EE1ADCF5460051AE77 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = E3FBB9E91ADCF5460051AE77 /* 4.png */; };
+		E3FBB9EF1ADCF5460051AE77 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = E3FBB9EA1ADCF5460051AE77 /* 5.png */; };
+		E3FBB9F51ADD1E420051AE77 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FBB9F41ADD1E420051AE77 /* CameraViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,16 @@
 		E3FBB9CD1ADCEA200051AE77 /* CroppedItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CroppedItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FBB9D21ADCEA200051AE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3FBB9D31ADCEA200051AE77 /* CroppedItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CroppedItTests.m; sourceTree = "<group>"; };
+		E3FBB9E11ADCEC370051AE77 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Resize.h"; path = "Category/UIImage+Resize.h"; sourceTree = "<group>"; };
+		E3FBB9E21ADCEC370051AE77 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Resize.m"; path = "Category/UIImage+Resize.m"; sourceTree = "<group>"; };
+		E3FBB9E41ADCF2520051AE77 /* bottle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bottle.jpg; path = ../../../../bottle.jpg; sourceTree = "<group>"; };
+		E3FBB9E61ADCF5460051AE77 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		E3FBB9E71ADCF5460051AE77 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		E3FBB9E81ADCF5460051AE77 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		E3FBB9E91ADCF5460051AE77 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		E3FBB9EA1ADCF5460051AE77 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		E3FBB9F31ADD1E420051AE77 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraViewController.h; path = Controllers/CameraViewController.h; sourceTree = "<group>"; };
+		E3FBB9F41ADD1E420051AE77 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraViewController.m; path = Controllers/CameraViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +99,10 @@
 		E3FBB9B61ADCEA200051AE77 /* CroppedIt */ = {
 			isa = PBXGroup;
 			children = (
-				E3FBB9BB1ADCEA200051AE77 /* AppDelegate.h */,
-				E3FBB9BC1ADCEA200051AE77 /* AppDelegate.m */,
-				E3FBB9BE1ADCEA200051AE77 /* ViewController.h */,
-				E3FBB9BF1ADCEA200051AE77 /* ViewController.m */,
+				E3FBB9F01ADD1DEF0051AE77 /* Images */,
+				E3FBB9E01ADCEBC80051AE77 /* Category */,
+				E3FBB9F21ADD1E160051AE77 /* Controllers */,
+				E3FBB9F11ADD1DFE0051AE77 /* AppDelegate */,
 				E3FBB9C11ADCEA200051AE77 /* Main.storyboard */,
 				E3FBB9C41ADCEA200051AE77 /* Images.xcassets */,
 				E3FBB9C61ADCEA200051AE77 /* LaunchScreen.xib */,
@@ -117,6 +135,48 @@
 				E3FBB9D21ADCEA200051AE77 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3FBB9E01ADCEBC80051AE77 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E3FBB9E11ADCEC370051AE77 /* UIImage+Resize.h */,
+				E3FBB9E21ADCEC370051AE77 /* UIImage+Resize.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		E3FBB9F01ADD1DEF0051AE77 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E3FBB9E41ADCF2520051AE77 /* bottle.jpg */,
+				E3FBB9E61ADCF5460051AE77 /* 1.png */,
+				E3FBB9E71ADCF5460051AE77 /* 2.png */,
+				E3FBB9E81ADCF5460051AE77 /* 3.png */,
+				E3FBB9E91ADCF5460051AE77 /* 4.png */,
+				E3FBB9EA1ADCF5460051AE77 /* 5.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E3FBB9F11ADD1DFE0051AE77 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E3FBB9BB1ADCEA200051AE77 /* AppDelegate.h */,
+				E3FBB9BC1ADCEA200051AE77 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E3FBB9F21ADD1E160051AE77 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E3FBB9BE1ADCEA200051AE77 /* ViewController.h */,
+				E3FBB9BF1ADCEA200051AE77 /* ViewController.m */,
+				E3FBB9F31ADD1E420051AE77 /* CameraViewController.h */,
+				E3FBB9F41ADD1E420051AE77 /* CameraViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +259,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3FBB9EC1ADCF5460051AE77 /* 2.png in Resources */,
 				E3FBB9C31ADCEA200051AE77 /* Main.storyboard in Resources */,
 				E3FBB9C81ADCEA200051AE77 /* LaunchScreen.xib in Resources */,
+				E3FBB9E51ADCF2520051AE77 /* bottle.jpg in Resources */,
+				E3FBB9EE1ADCF5460051AE77 /* 4.png in Resources */,
 				E3FBB9C51ADCEA200051AE77 /* Images.xcassets in Resources */,
+				E3FBB9EF1ADCF5460051AE77 /* 5.png in Resources */,
+				E3FBB9ED1ADCF5460051AE77 /* 3.png in Resources */,
+				E3FBB9EB1ADCF5460051AE77 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3FBB9F51ADD1E420051AE77 /* CameraViewController.m in Sources */,
 				E3FBB9C01ADCEA200051AE77 /* ViewController.m in Sources */,
+				E3FBB9E31ADCEC370051AE77 /* UIImage+Resize.m in Sources */,
 				E3FBB9BD1ADCEA200051AE77 /* AppDelegate.m in Sources */,
 				E3FBB9BA1ADCEA200051AE77 /* main.m in Sources */,
 			);
@@ -343,9 +411,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rahul Kalavar (KJW2BBSM5V)";
 				INFOPLIST_FILE = CroppedIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a0145098-6f5f-45bd-a5b3-3cd9e60dd651";
 			};
 			name = Debug;
 		};
@@ -353,9 +424,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rahul Kalavar (KJW2BBSM5V)";
 				INFOPLIST_FILE = CroppedIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a0145098-6f5f-45bd-a5b3-3cd9e60dd651";
 			};
 			name = Release;
 		};
@@ -412,6 +486,7 @@
 				E3FBB9D91ADCEA200051AE77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3FBB9DA1ADCEA200051AE77 /* Build configuration list for PBXNativeTarget "CroppedItTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +495,7 @@
 				E3FBB9DC1ADCEA200051AE77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
