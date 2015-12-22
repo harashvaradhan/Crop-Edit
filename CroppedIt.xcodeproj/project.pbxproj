@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0530D7111C2927D2002E3732 /* ImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0530D7101C2927D2002E3732 /* ImagePickerViewController.m */; };
 		E3FBB9BA1ADCEA200051AE77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FBB9B91ADCEA200051AE77 /* main.m */; };
 		E3FBB9BD1ADCEA200051AE77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FBB9BC1ADCEA200051AE77 /* AppDelegate.m */; };
 		E3FBB9C01ADCEA200051AE77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FBB9BF1ADCEA200051AE77 /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		E3FBB9C81ADCEA200051AE77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3FBB9C61ADCEA200051AE77 /* LaunchScreen.xib */; };
 		E3FBB9D41ADCEA200051AE77 /* CroppedItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FBB9D31ADCEA200051AE77 /* CroppedItTests.m */; };
 		E3FBB9E31ADCEC370051AE77 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FBB9E21ADCEC370051AE77 /* UIImage+Resize.m */; };
-		E3FBB9E51ADCF2520051AE77 /* bottle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBB9E41ADCF2520051AE77 /* bottle.jpg */; };
 		E3FBB9EB1ADCF5460051AE77 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E3FBB9E61ADCF5460051AE77 /* 1.png */; };
 		E3FBB9EC1ADCF5460051AE77 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E3FBB9E71ADCF5460051AE77 /* 2.png */; };
 		E3FBB9ED1ADCF5460051AE77 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E3FBB9E81ADCF5460051AE77 /* 3.png */; };
@@ -35,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0530D70F1C2927D2002E3732 /* ImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImagePickerViewController.h; path = Controllers/ImagePickerViewController.h; sourceTree = "<group>"; };
+		0530D7101C2927D2002E3732 /* ImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImagePickerViewController.m; path = Controllers/ImagePickerViewController.m; sourceTree = "<group>"; };
 		E3FBB9B41ADCEA200051AE77 /* CroppedIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CroppedIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FBB9B81ADCEA200051AE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3FBB9B91ADCEA200051AE77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -50,7 +52,6 @@
 		E3FBB9D31ADCEA200051AE77 /* CroppedItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CroppedItTests.m; sourceTree = "<group>"; };
 		E3FBB9E11ADCEC370051AE77 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Resize.h"; path = "Category/UIImage+Resize.h"; sourceTree = "<group>"; };
 		E3FBB9E21ADCEC370051AE77 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Resize.m"; path = "Category/UIImage+Resize.m"; sourceTree = "<group>"; };
-		E3FBB9E41ADCF2520051AE77 /* bottle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bottle.jpg; path = ../../../../bottle.jpg; sourceTree = "<group>"; };
 		E3FBB9E61ADCF5460051AE77 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		E3FBB9E71ADCF5460051AE77 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		E3FBB9E81ADCF5460051AE77 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
@@ -149,7 +150,6 @@
 		E3FBB9F01ADD1DEF0051AE77 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				E3FBB9E41ADCF2520051AE77 /* bottle.jpg */,
 				E3FBB9E61ADCF5460051AE77 /* 1.png */,
 				E3FBB9E71ADCF5460051AE77 /* 2.png */,
 				E3FBB9E81ADCF5460051AE77 /* 3.png */,
@@ -175,6 +175,8 @@
 				E3FBB9BF1ADCEA200051AE77 /* ViewController.m */,
 				E3FBB9F31ADD1E420051AE77 /* CameraViewController.h */,
 				E3FBB9F41ADD1E420051AE77 /* CameraViewController.m */,
+				0530D70F1C2927D2002E3732 /* ImagePickerViewController.h */,
+				0530D7101C2927D2002E3732 /* ImagePickerViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -262,7 +264,6 @@
 				E3FBB9EC1ADCF5460051AE77 /* 2.png in Resources */,
 				E3FBB9C31ADCEA200051AE77 /* Main.storyboard in Resources */,
 				E3FBB9C81ADCEA200051AE77 /* LaunchScreen.xib in Resources */,
-				E3FBB9E51ADCF2520051AE77 /* bottle.jpg in Resources */,
 				E3FBB9EE1ADCF5460051AE77 /* 4.png in Resources */,
 				E3FBB9C51ADCEA200051AE77 /* Images.xcassets in Resources */,
 				E3FBB9EF1ADCF5460051AE77 /* 5.png in Resources */,
@@ -289,6 +290,7 @@
 				E3FBB9C01ADCEA200051AE77 /* ViewController.m in Sources */,
 				E3FBB9E31ADCEC370051AE77 /* UIImage+Resize.m in Sources */,
 				E3FBB9BD1ADCEA200051AE77 /* AppDelegate.m in Sources */,
+				0530D7111C2927D2002E3732 /* ImagePickerViewController.m in Sources */,
 				E3FBB9BA1ADCEA200051AE77 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,7 +418,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a0145098-6f5f-45bd-a5b3-3cd9e60dd651";
+				PROVISIONING_PROFILE = "0fb22156-75a9-4047-b38a-eea306b95ad3";
 			};
 			name = Debug;
 		};
@@ -429,7 +431,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a0145098-6f5f-45bd-a5b3-3cd9e60dd651";
+				PROVISIONING_PROFILE = "0fb22156-75a9-4047-b38a-eea306b95ad3";
 			};
 			name = Release;
 		};
